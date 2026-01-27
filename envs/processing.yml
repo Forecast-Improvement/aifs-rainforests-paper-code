@@ -1,0 +1,44 @@
+# Based in Improver environment b 
+name: processing
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  # Required
+  - cartopy
+  - clize
+  - iris=3.12
+  - numpy=2.2
+  - pandas
+  - pytz
+  - scipy=1.15
+  - sphinx
+  - xarray
+  - polars
+  - cfgrib
+  - pyarrow
+  - matplotlib
+  - ipykernel
+  - flox
+  - optuna
+  # Optional
+  - geopandas
+  - lightgbm>=4.0.0
+  - numba
+  - python-stratify
+  - treelite>=4.0.0
+  - tl2cgen>=1.0.0
+  # Development
+  - astroid
+  - filelock
+  - mock
+  - mypy
+  - pytest
+  - pytest-cov
+  - pytest-xdist
+  - sphinx-autodoc-typehints
+  - sphinx_rtd_theme
+  - threadpoolctl
+  - pip:
+    - git+https://github.com/metoppv/improver.git
+    - git+https://github.com/btrotta-bom/scores.git

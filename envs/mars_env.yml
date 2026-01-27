@@ -1,0 +1,8 @@
+name: mars
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - ecmwf-api-client
+  - pandas
+  - ecmwf-opendata

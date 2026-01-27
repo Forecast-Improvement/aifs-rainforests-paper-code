@@ -1,0 +1,30 @@
+# adapted from bom_default_current environment of stage
+
+name: stage_aifs
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - bandit
+  - cartopy=0.18.0
+  - cython=0.29.21
+  - dask=2.30.0
+  - filelock=3.0.12
+  - iris=3.0.1
+  - iris-grib=0.15.1
+  - mo_pack
+  - matplotlib=3.3.2
+  - numpy=1.19.2
+  - pluggy=0.13.1
+  - py=1.10.0
+  - pytest=6.1.1
+  - pytest-cov=2.8.1
+  - pytest-xdist=2.1.0
+  - python=3.6.8
+  - python-eccodes=0.9.3
+  - safety=1.9.0
+  - setuptools=50.3.1
+  - setuptools-scm[toml]=6.3.2
+  - pip=21.1
+  - cfgrib
+  - xarray

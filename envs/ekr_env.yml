@@ -1,0 +1,11 @@
+# adapted from bom_default_current environment of stage
+
+name: ekr
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.8
+  - iris
+  - pip:
+    - earthkit-regrid
+    - earthkit-data

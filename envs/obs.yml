@@ -1,0 +1,10 @@
+name: adam_db
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pandas
+  - numpy
+  - xarray
+  - oracledb
+  - pyarrow
